@@ -4,7 +4,6 @@
 #include <cmath>
 using namespace std;
 
-// Functions
 void showMenu();
 int getInput(const string& varName);
 void performOperation(int A, int B, int choice);
@@ -15,7 +14,6 @@ int main() {
 
     cout << "WELCOME TO THE TRUTH TABLE PROGRAM!\n\n";
 
-    
     A = getInput("A");
     B = getInput("B");
 
@@ -39,8 +37,7 @@ int main() {
 
     } while (choice != 0);
     cout << "Thanks for using the program! Goodbye! :)\n";
-    return 0;
-}
+    return 0; }
 
 void showMenu() {
     cout << "\nSelect the logical operation to perform:\n";
