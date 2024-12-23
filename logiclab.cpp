@@ -11,7 +11,6 @@ void displayTruthTable(int A, int B);
 
 int main() {
     int A, B, choice;
-
     cout << "WELCOME TO THE TRUTH TABLE PROGRAM!\n\n";
 
     A = getInput("A");
