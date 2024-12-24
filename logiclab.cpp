@@ -3,7 +3,6 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 void showMenu();
 int getInput(const string& varName);
 void performOperation(int A, int B, int choice);
